@@ -503,7 +503,7 @@ span {
     }
 
     .home-content {
-        width: 80vw;
+        width: auto;
         align-items: center;
         padding-left: 1.2rem;
     }
@@ -540,7 +540,7 @@ span {
     }
 
     .home-content {
-        width: 80vw;
+        width: auto;
         align-items: center;
         padding-left: 1.2rem;
     }
