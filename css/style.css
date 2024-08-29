@@ -456,7 +456,7 @@ span {
 
     .home-img img{
         width: 70vw;
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
 
     .about{
@@ -506,7 +506,7 @@ span {
     .home-content {
         width: 100vw;
         align-items: center;
-        padding-left: 1.2rem;
+        padding-left: 2rem;
     }
     .home-content h3{
         font-size: 1.6rem;
@@ -517,7 +517,7 @@ span {
     }
 
     .home-img img{
-        width: 90vw;
+        width: auto;
     }
      
     .about-img img{
@@ -541,7 +541,7 @@ span {
     }
 
     .home-content {
-            width: 80vw;
+            width: auto;
             margin: auto;
     }
 }
