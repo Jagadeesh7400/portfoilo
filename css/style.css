@@ -541,8 +541,7 @@ span {
     }
 
     .home-content {
-        width: auto;
-        align-items: center;
-        padding-left: 1.2rem;
+            width: 80vw;
+            margin: auto;
     }
 }
