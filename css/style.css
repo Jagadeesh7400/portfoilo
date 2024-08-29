@@ -532,3 +532,16 @@ span {
         margin-top: 2rem;
     }
 }
+
+@media (max-width: 300px){
+    .home {
+        flex-direction: column;
+
+    }
+
+    .home-content {
+        width: 80vw;
+        align-items: center;
+        padding-left: 1.2rem;
+    }
+}
