@@ -146,6 +146,7 @@ span {
 .profile-pic {
     width: 100%;
     border-radius: 50%;
+    box-shadow: 0 0 1rem var(--main-color);
 }
 
 .btn {
