@@ -504,6 +504,7 @@ span {
 
     .home-content {
         width: 80vw;
+        align-items: center;
         padding-left: 1.2rem;
     }
     .home-content h3{
