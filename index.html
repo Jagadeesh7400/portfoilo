@@ -43,7 +43,7 @@
                 <a href="#"><i class='bx bxl-linkedin'></i></a>
                 <a href="#"><i class='bx bxl-github'></i></a>
             </div>
-            <a href="#"><i class='btn'>Download RESUME</i></a>
+            <a download href="#"><i class='btn'>Download RESUME</i></a>
         </div>
         <div class="home-img">
             <img src="images/home.png" alt="Jagadeesh K" class="profile-pic">
@@ -60,13 +60,53 @@
         <h2 class="heading">About <span>Me</span></h2>
         <h3>Frontend Developer!</h3>
         <p>Bachelor of Computer Applications and Data Science with hands-on experience through internships and
+          personal projects. Adept at working with ......</p>
+        <button id="openModalBtn" class="btn"> Read More</button>
+      </div>
+
+ <!-- Modal Structure -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>About me</h2>
+        <span class="close-btn">&times;</span>
+      </div>
+      <div class="modal-about-body">
+        <p>Bachelor of Computer Applications and Data Science with hands-on experience through internships and
           personal projects. Adept at working with various technologies and methodologies, and highly proficient
           in several programming languages and tools. Known for strong analytical skills, problem-solving abilities,
           and a passion for leveraging data to drive decision-making. Proven ability to work effectively in team
           environments and eager to contribute to the industry. Seeking opportunities to bring my expertise to a
           relevant role, aligning with my career goals of making impactful contributions in the field.</p>
-        <a href="#" class="btn"> Read More</a>
       </div>
+      <div class="modal-box">
+        <div class="modal-layer">
+      <h1>Skills</h1>
+      <ol type="1"><li>Programming Languages:
+      <ol>Python, HTML, SQL</ol></li>
+      <li>Tools and Technologies:
+      <ol>Tableau, Power BI, Excel, Git, Jupyter Notebook, Spyder</ol></li>
+      <li>Soft Skills:
+      <ol>Analytical Thinking, Problem-Solving, Team Collaboration Projects</ol></li></ol>
+      </div>
+      <div class="modal-layer">
+        <h1>Honors Awards</h1>
+        <ol>Programming Languages:</ol>
+        <ul>Python, HTML, SQL</ul>
+        <ol>Tools and Technologies:</ol>
+        <ul>Tableau, Power BI, Excel, Git, Jupyter Notebook, Spyder</ul>
+        <ol> Soft Skills:</ol>
+        <ul>Analytical Thinking, Problem-Solving, Team Collaboration
+          Projects</ul>
+      </div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="#contact"><i class='btn' id="closeModalBtn">Contact Me!</i></a>
+      </div>
+    </div>
+  </div>
+
     </section>
 
     <!-- services section design -->
