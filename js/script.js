@@ -37,14 +37,18 @@ window.onscroll = () => {
 
 // Modal Functionality
 // Get the modal buttons and modals
+const modal = document.getElementById("myModal");
 const webDevModal = document.getElementById("webDevModal");
 const dataAnalystModal = document.getElementById("dataAnalystModal");
 const graphicDesignModal = document.getElementById("graphicDesignModal");
 
+const openModalBtn = document.getElementById("openModalBtn");
 const webDevModalBtn = document.getElementById("webDevModalBtn");
 const dataAnalystModalBtn = document.getElementById("dataAnalystModalBtn");
 const graphicDesignModalBtn = document.getElementById("graphicDesignModalBtn");
 
+const closeModalBtn = document.getElementsByClassName("close-btn")[0];
+const closeModalFooterBtn = document.getElementById("closeModalBtn");
 const closeButtons = document.querySelectorAll(".close-btn");
 
 // Function to open a modal
