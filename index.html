@@ -108,57 +108,44 @@
 
     </section>
 
-    <!-- services section design -->
-    <section class="services" id="services">
-      <h2 class="heading">Our <span>Services</span></h2>
+    <!-- Services Section -->
+<section class="services" id="services">
+  <h2 class="heading">Our <span>Services</span></h2>
 
-      <div class="services-container">
-        <div class="services-box">
-          <i class='bx bx-code-alt'></i>
-          <h3>Web Development</h3>
-          <p>Crafting responsive, user-friendly websites using WordPress, HTML, CSS, and modern design frameworks to enhance user experience.</p>
-          <a href="openModalBtn" class="btn">Read More</a>
-        </div>
-
-        <div class="services-box">
-          <i class='bx bxs-analyse'></i>
-          <h3>Data analyst</h3>
-          <p>Transforming raw data into actionable insights using tools like Python, SQL, Tableau, and Power BI to drive informed decision-making.</p>
-          <a href="openModalBtn" class="btn">Read More</a>
-        </div>
-
-        <div class="services-box">
-          <i class='bx bx-code-alt'></i>
-          <h3>Graphic design</h3>
-          <p>Designing visually appealing graphics and layouts using tools like Canva, Photoshop, and Figma to communicate ideas effectively.</p>
-          <a href="openModalBtn" class="btn">Read More</a>
-        </div>
-      </div>
-
-        <div id="servicesModal" class="modal">
-  <div class="modal-content">
-    <!-- Header -->
-    <div class="modal-header">
-      <h2>Our Services</h2>
-      <span class="close-btn">&times;</span>
+  <div class="services-container">
+    <!-- Web Development Service -->
+    <div class="services-box">
+      <i class='bx bx-code-alt'></i>
+      <h3>Web Development</h3>
+      <p>Crafting responsive, user-friendly websites using WordPress, HTML, CSS, and modern design frameworks to enhance user experience.</p>
+      <button id="webDevModalBtn" class="btn">Read More</button>
     </div>
 
-    <!-- Modal Body -->
-    <div class="modal-body">
-      <!-- Data Analyst Section -->
-      <div class="modal-layer">
-        <h3>Data Analyst</h3>
-        <p>
-          Transform raw data into meaningful insights using advanced tools and techniques. Proficient in Python, SQL, 
-          Tableau, and Power BI to analyze data trends, create visualizations, and generate reports that guide 
-          business strategies. With a strong focus on data wrangling, visualization, and decision-making, I ensure 
-          actionable outcomes that drive success.
-        </p>
-      </div>
+    <!-- Data Analyst Service -->
+    <div class="services-box">
+      <i class='bx bxs-analyse'></i>
+      <h3>Data Analyst</h3>
+      <p>Transforming raw data into actionable insights using tools like Python, SQL, Tableau, and Power BI to drive informed decision-making.</p>
+      <button id="dataAnalystModalBtn" class="btn">Read More</button>
+    </div>
 
-      <!-- Web Development Section -->
-      <div class="modal-layer">
-        <h3>Web Development</h3>
+    <!-- Graphic Design Service -->
+    <div class="services-box">
+      <i class='bx bx-paint'></i>
+      <h3>Graphic Design</h3>
+      <p>Designing visually appealing graphics and layouts using tools like Canva, Photoshop, and Figma to communicate ideas effectively.</p>
+      <button id="graphicDesignModalBtn" class="btn">Read More</button>
+    </div>
+  </div>
+
+  <!-- Web Development Modal -->
+  <div id="webDevModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Web Development</h2>
+        <span class="close-btn">&times;</span>
+      </div>
+      <div class="modal-body">
         <p>
           Design and develop responsive, user-friendly websites tailored to your needs. Proficient in WordPress, HTML, 
           CSS, and modern frameworks, I create visually appealing, functional, and optimized websites that deliver 
@@ -166,78 +153,54 @@
           your online presence.
         </p>
       </div>
+      <div class="modal-footer">
+        <a href="#contact" class="btn">Contact Me!</a>
+      </div>
+    </div>
+  </div>
 
-      <!-- Graphic Design Section -->
-      <div class="modal-layer">
-        <h3>Graphic Design</h3>
+  <!-- Data Analyst Modal -->
+  <div id="dataAnalystModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Data Analyst</h2>
+        <span class="close-btn">&times;</span>
+      </div>
+      <div class="modal-body">
+        <p>
+          Transform raw data into meaningful insights using advanced tools and techniques. Proficient in Python, SQL, 
+          Tableau, and Power BI to analyze data trends, create visualizations, and generate reports that guide 
+          business strategies. With a strong focus on data wrangling, visualization, and decision-making, I ensure 
+          actionable outcomes that drive success.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#contact" class="btn">Contact Me!</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Graphic Design Modal -->
+  <div id="graphicDesignModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Graphic Design</h2>
+        <span class="close-btn">&times;</span>
+      </div>
+      <div class="modal-body">
         <p>
           Create visually compelling designs that communicate your message effectively. Skilled in Canva, Adobe 
           Photoshop, and Figma, I craft designs for marketing materials, social media, branding, and more. With a 
           strong emphasis on creativity and aesthetics, I ensure every design resonates with your target audience.
         </p>
       </div>
-    </div>
-
-    <!-- Footer -->
-    <div class="modal-footer">
-      <a href="#contact"><i class="btn" id="closeModalBtn">Contact Me!</i></a>
+      <div class="modal-footer">
+        <a href="#contact" class="btn">Contact Me!</a>
+      </div>
     </div>
   </div>
-</div>
+</section>
 
-    </section>
-
-    <!-- portfolio section design -->
-    <section class="portfolio" id="portfolio">
-      <h2 class="heading">Latest <span>Project</span></h2>
-      
-      <div class="portfolio-container">
-        <div class="portfolio-box">
-          <img src="images/portfolio1.jpg" alt="">
-          <div class="portfolio-layer">
-           <h4>Web Design</h4>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, corporis iste. Eius sunt earum tenetur ab eligendi fugiat, iste tempore rem architecto ullam, repellendus enim. In est expedita quibusdam molestias?</p>
-          <a href="#"><i class='bx bx-link-external'></i></a>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="images/portfolio2.jpg" alt="">
-          <div class="portfolio-layer">
-           <h4>Web Design</h4>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, corporis iste. Eius sunt earum tenetur ab eligendi fugiat, iste tempore rem architecto ullam, repellendus enim. In est expedita quibusdam molestias?</p>
-          <a href="#"><i class='bx bx-link-external'></i></a>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="images/portfolio3.jpg" alt="">
-          <div class="portfolio-layer">
-           <h4>Web Design</h4>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, corporis iste. Eius sunt earum tenetur ab eligendi fugiat, iste tempore rem architecto ullam, repellendus enim. In est expedita quibusdam molestias?</p>
-          <a href="#"><i class='bx bx-link-external'></i></a>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="images/portfolio4.jpg" alt="">
-          <div class="portfolio-layer">
-           <h4>Web Design</h4>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, corporis iste. Eius sunt earum tenetur ab eligendi fugiat, iste tempore rem architecto ullam, repellendus enim. In est expedita quibusdam molestias?</p>
-          <a href="#"><i class='bx bx-link-external'></i></a>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="images/portfolio5.jpg" alt="">
-          <div class="portfolio-layer">
-           <h4>Web Design</h4>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, corporis iste. Eius sunt earum tenetur ab eligendi fugiat, iste tempore rem architecto ullam, repellendus enim. In est expedita quibusdam molestias?</p>
-          <a href="#"><i class='bx bx-link-external'></i></a>
-            </div>
-        </div>
-      </div>
-    </section>
 
     <!-- contact section design -->
     <section class="contact" id="contact">
